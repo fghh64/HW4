@@ -5,14 +5,14 @@
 int main() {
 float e;
 int c;
-unsigned int a=0, b=0;
+int a=0, b=0;
 scanf("%d", &c);
 while (c!=0)
 {
-    a+=c;
-    b+=1;
-    scanf("%d", &c);
+    a+=c; //сумма чисел
+    b+=1; //счетчик цифер
+    scanf("%d", &c); 
 }
-e=(float)a/b;
+e=(float)a/b; //деление
 printf("%f\n",e);
 }
